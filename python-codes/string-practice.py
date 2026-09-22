@@ -32,7 +32,7 @@ name = "Alice6"
 
 # print(name.isalnum())
 
-text = "Data Science"
+text = "Data Science is the New Career"
 
 # Lenght of the String 
 
@@ -44,3 +44,30 @@ print(text[5])
 # Reverse the String 
 
 print(text[::-1])
+
+# Find the Number of Characters 
+
+count = len(text.replace(" ","")) # It will replace the white space from the string
+
+print(count)
+
+# Using Loops 
+
+count = 0
+
+for char in text:
+    if char != " ":
+     count += 1
+
+print(count)
+
+# Find the Number of Spaces in the String
+count_sp = 0
+for space in text:
+   if space == " ":
+     count_sp +=1
+
+print(count_sp)
+
+
+    
