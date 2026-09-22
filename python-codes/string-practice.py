@@ -91,4 +91,23 @@ domain = email[findat+1:]
 
 
 print(f"Username: {username} \nDomain: {domain}")
+
+# Reverse the String 
+
+text3 = "Delhivery"
+
+# print(text3[::-1])
+
+# Now Revering the String using the Loop
+reverse = ""
+
+# for char in text3:
     
+#     reverse = char + reverse
+
+# print(reverse)
+
+for i in range(len(text3)-1, -1, -1):
+    reverse = reverse + text3[i]
+
+print(reverse)
