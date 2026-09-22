@@ -68,6 +68,27 @@ for space in text:
      count_sp +=1
 
 print(count_sp)
+new_text = text.lower()
+print(new_text.count('d'))
+
+# Change Cases
+
+text2 = "Python is Powerful"
+
+print(text2.lower())
+print(text2.upper())
+print(text2.title())
+
+email = 'sachinyadav@gmail.com'
+
+findat = email.find('@')
+
+print(findat)
+
+username = email[0:findat]
+
+domain = email[findat+1:]
 
 
+print(f"Username: {username} \nDomain: {domain}")
     
