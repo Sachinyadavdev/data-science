@@ -33,3 +33,37 @@ print('@' in email)
 print(email.endswith('.com'))
 print(email.startswith('sachin'))
 print('gmail' in email)
+
+# Count the Vowels in the String
+
+sentence2 = "Data Science is Interesting"
+a = 0 
+e = 0
+i = 0
+o = 0
+u = 0
+# print(a)
+for vo in sentence2.lower():
+
+ if vo == 'a':
+       
+       a+=1
+ elif vo == 'e':
+       
+       e+=1
+ elif vo == 'i':
+       
+       i+=1
+ elif vo == 'o':
+       
+       o+=1
+ elif vo == 'u':
+       
+       u+=1
+
+print(f"a :{a}")
+print(f"e :{e}")
+print(f"i :{i}")
+print(f"o :{o}")
+print(f"u :{u}")
+    
