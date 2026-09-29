@@ -17,3 +17,13 @@ print(frequency)
 for char, count in frequency.items():
     if count > 1:
         print(f"{char}:{count}")
+
+for c in frequency.items():  # Gives the Value in the form of the Tuple of the dictionary 
+    print(c)
+
+for d in frequency.values(): # Gives only the value of the dictionary
+    print(d)
+
+for e in frequency.keys():  # Gives only the Key of the dictionary
+    print(e)
+
