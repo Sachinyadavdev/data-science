@@ -1,16 +1,19 @@
-text = "Programmiiiiiingaaaa"
+text = "Programmiiiiiingaaaall"
 
-new_text = set()
-count = 0
 frequency = {}
-for letter in text:
-    count+=1
-    new_text = new_text.union(set(letter))
-    if letter in frequency:
-        frequency[letter] +=1
-    else:
-        frequency[letter] = 1
 
-print(count)
-print(new_text)
+
+# Step 1, find the Frequency of the letters
+for char in text:
+  
+    if char in frequency:
+        frequency[char]+=1
+    else:
+        frequency[char]=1
+
 print(frequency)
+
+
+for char, count in frequency.items():
+    if count > 1:
+        print(f"{char}:{count}")
