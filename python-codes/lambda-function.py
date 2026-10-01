@@ -11,3 +11,8 @@ is_even = lambda number : number % 2 == 0
 print(is_even(572))
 
 
+# Largest of Two Number 
+
+maximum = lambda x ,y: x if x>y else y
+
+print(maximum(45,8))
