@@ -17,3 +17,26 @@ names = [
 
 print(list(filter(lambda x: x[0].lower()=='a',names)))
 
+words = [
+    "Python",
+    "SQL",
+    "Pandas",
+    "AI",
+    "Machine",
+    "Data"
+]
+
+print(list(filter(lambda x: len(x) > 5, words)))
+
+# lambda + Sorting - list in the tuple 
+
+students = [
+    ("Sachin", 85),
+    ("Rahul", 72),
+    ("Priya", 92),
+    ("Amit", 65)
+]
+
+sorted_names = sorted(students,key=lambda student: student[1], reverse=True)
+
+print(sorted_names)
