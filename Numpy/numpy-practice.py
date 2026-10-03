@@ -5,3 +5,6 @@ l1 = np.array([1,2,3,4,5])
 l2 = np.array([5,6,7,8,9])
 
 print(l1 + l2)
+
+print(type(l1))
+print(l1.shape)
