@@ -37,6 +37,6 @@ print(np.std(numbers))
 numbers = np.array([10, 25, 30, 45, 50, 65, 70])
 
 greaten_40 = numbers[numbers > 40]
+greater_30_60 = numbers[(numbers >= 30) & (numbers <= 60)]
 
-
-print(greaten_40)
+print(greater_30_60)
