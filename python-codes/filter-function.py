@@ -40,3 +40,11 @@ students = [
 sorted_names = sorted(students,key=lambda student: student[1], reverse=True)
 
 print(sorted_names)
+
+# Reduce Function
+
+from functools import reduce
+
+numbers = [1, 2, 3, 4, 5]
+
+print(reduce(lambda x,y: x+y,numbers))
