@@ -28,3 +28,19 @@ print(arr2)
 print(arr2.dtype)
 print(arr2.ndim)
 print(arr3.ndim) # ndim is used to check the dimension of the array
+print(arr3.size) # Number of Elements
+
+arr3 = arr3.flatten() # This will flatten the array
+print(arr3.ndim)
+
+print(arr3)
+
+print(arr3[0])
+print(arr3[-1])
+
+print(arr3[2])
+print(arr3[:3])
+print(arr3[::-1]) # This will reverse the array
+
+# Create the Array using the Numpy
+
