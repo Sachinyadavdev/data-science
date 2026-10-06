@@ -12,3 +12,15 @@ arr3d = np.array([
 print(arr2d)
 print(arr3d[0,1,2]) # first depth , second row , third column
 
+print(arr3d[:,0,1])
+print(arr3d[:,0,:])
+print(arr3d[:,0,1:3])
+
+arr = np.array([
+    [1,2,3],
+    [4,5,6]
+])
+
+arr[:,1] = 0
+
+print(arr)
