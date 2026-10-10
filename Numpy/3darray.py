@@ -24,3 +24,11 @@ arr = np.array([
 arr[:,1] = 0
 
 print(arr)
+
+# Checking the Datatype of the array 
+print(arr.dtype)
+
+new_int = arr.astype(np.int32)
+
+print(new_int.dtype)  # This is how you can change the data type 
+
