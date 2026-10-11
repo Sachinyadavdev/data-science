@@ -8,3 +8,12 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+
+print(df.index)
+print(df.columns)
+
+df.index = ['a','b','c']
+df.columns = ['Name','Age','City']
+
+print(df.index)
+print(df.columns)
