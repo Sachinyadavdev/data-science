@@ -1,0 +1,56 @@
+order_id,customer_name,email,city,product,quantity,unit_price,order_date,order_status,customer_rating,customer_age
+2001,Aarav Sharma,aarav.sharma@example.com,Delhi,Laptop,1,55000,2026-01-03,Completed,4.5,24.0
+2002,Priya Verma,priya.verma@example.com,Mumbai,Headphones,2,1500,2026-01-04,Completed,4.2,29.0
+2003,Rahul Singh,rahul.singh@example.com,Chennai,Keyboard,1,2200,2026-01-05,Pending,3.8,31.0
+2004,Sneha Patel,sneha.patel@example.com,Pune,Mouse,3,600,2026-01-06,Completed,4.7,26.0
+2005,Amit Kumar,amit.kumar@example.com,Delhi,Monitor,1,12000,2026-01-07,Cancelled,4.1,35.0
+2006,Neha Gupta,neha.gupta@example.com,Jaipur,Headphones,1,1800,2026-01-08,Completed,4.0,28.0
+2007,Vikram Rao,vikram.rao@example.com,Mumbai,Laptop,1,62000,2026-01-09,Completed,4.6,42.0
+2008,Ananya Das,ananya.das@example.com,Chennai,Mouse,2,650,2026-01-10,Pending,4.3,23.0
+2009,Rohan Mehta,rohan.mehta@example.com,Pune,Keyboard,2,2000,2026-01-11,Completed,3.9,30.0
+2010,Kavya Nair,kavya.nair@example.com,Delhi,Headphones,1,1500,2026-01-12,Completed,4.8,27.0
+2011,Ishaan Jain,ishaan.jain@example.com,Jaipur,Monitor,2,11500,2026-01-13,Completed,4.1,33.0
+2012,Meera Iyer,meera.iyer@example.com,Mumbai,Mouse,1,700,2026-01-14,Returned,3.7,32.0
+2013,Arjun Reddy,arjun.reddy@example.com,Chennai,Laptop,1,58000,2026-01-15,Completed,4.9,25.0
+2014,Pooja Shah,pooja.shah@example.com,Pune,Headphones,3,1600,2026-01-16,Completed,4.2,29.0
+2015,Karan Malhotra,karan.m@example.com,Delhi,Keyboard,1,2400,2026-01-17,Pending,4.0,38.0
+2016,Diya Joshi,diya.joshi@example.com,Jaipur,Mouse,4,550,2026-01-18,Completed,4.4,22.0
+2017,Manish Yadav,manish.yadav@example.com,Mumbai,Monitor,1,12500,2026-01-19,Completed,4.1,40.0
+2018,Tanya Bose,tanya.bose@example.com,Chennai,Headphones,2,1700,2026-01-20,Pending,4.6,26.0
+2019,Aditya Roy,aditya.roy@example.com,Pune,Laptop,1,60000,2026-01-21,Completed,4.5,34.0
+2020,Riya Kapoor,riya.kapoor@example.com,Delhi,Mouse,2,600,2026-01-22,Completed,4.3,28.0
+2021,Dev Mishra,dev.mishra@example.com,Jaipur,Keyboard,2,2100,2026-01-23,Completed,4.0,31.0
+2022,Simran Kaur,simran.kaur@example.com,Mumbai,Headphones,1,1900,2026-01-24,Returned,3.5,36.0
+2023,Yash Thakur,yash.thakur@example.com,Chennai,Monitor,1,11800,2026-01-25,Completed,4.2,27.0
+2024,Nisha Soni,nisha.soni@example.com,Pune,Mouse,3,650,2026-01-26,Pending,4.4,24.0
+2025,Kabir Khan,kabir.khan@example.com,Delhi,Laptop,1,57000,2026-01-27,Completed,4.7,29.0
+2026,Aditi Rao,aditi.rao@example.com,Jaipur,Headphones,2,1550,2026-01-28,Completed,4.1,30.0
+2027,Sahil Arora,sahil.arora@example.com,Mumbai,Keyboard,1,2300,2026-01-29,Completed,4.3,33.0
+2028,Ira Sen,ira.sen@example.com,Chennai,Mouse,1,700,2026-01-30,Cancelled,4.0,21.0
+2029,Varun Pillai,varun.pillai@example.com,Pune,Monitor,1,12200,2026-01-31,Completed,4.6,37.0
+2030,Maya Chawla,maya.chawla@example.com,Delhi,Headphones,2,1650,2026-02-01,Completed,4.2,26.0
+2031,  RAHUL SINGH  ,RAHUL.SINGH@EXAMPLE.COM,delhi ,Laptop,1,56000,02/02/2026,completed,4.4,31.0
+2032,Anjali,NaN,Mumbai,Headphones,2,1500,2026-02-03,Completed,4.1,27.0
+2033,Mohit Verma,mohit.verma@example.com,NaN,Mouse,2,650,2026-02-04,Pending,3.9,29.0
+2034,Pooja Sharma,pooja.sharma@example.com,Pune,NaN,1,2400,2026-02-05,Completed,4.3,32.0
+2035,Ritesh Kumar,ritesh.kumar@example.com,Delhi,Monitor,NaN,12000,2026-02-06,Completed,4.0,34.0
+2036,Nikita Rao,nikita.rao@example.com,Chennai,Keyboard,2,NaN,2026-02-07,Pending,4.2,25.0
+2037,Suman Das,suman.das@example.com,Jaipur,Mouse,3,600,NaN,Completed,4.1,28.0
+2038,Vivek Singh,vivek.singh@example.com,Mumbai,Laptop,1,59000,2026-02-09,NaN,4.5,39.0
+2039,Kiran Patel,kiran.patel@example.com,Pune,Headphones,2,1700,2026-02-10,Completed,NaN,26.0
+2040,Ravi Kumar,ravi.kumar@example.com,Delhi,Monitor,1,11800,2026-02-11,Completed,4.2,NaN
+2041,Sneha Patel,sneha.patel@example.com,Pune,Mouse,3,600,2026-01-06,Completed,4.7,26.0
+2042,  priya verma,priya.verma@example.com , MUMBAI,Headphones,2,1500,2026-02-12, COMPLETE ,4.2,29.0
+2043,Aarav Sharma,aarav.sharma@example.com,Delhi,Laptop,1,55000,2026-01-03,Completed,4.5,24.0
+2044,Mehul Joshi,mehul.joshi@example.com,Pune,Mouse,0,600,2026-02-13,Completed,4.0,28.0
+2045,Sana Ali,sana.ali@example.com,Delhi,Laptop,-1,55000,2026-02-14,Pending,4.1,25.0
+2046,Om Prakash,om.prakash@example.com,Jaipur,Monitor,1,-500,2026-02-15,Completed,4.3,45.0
+2047,Tara Gill,tara.gill@example.com,Chennai,Keyboard,2,2200,not-a-date,Completed,4.6,23.0
+2048,Naveen Kumar,naveen.kumar@example.com,Delhi,Laptop,two,55000,2026-02-16,Completed,4.0,31.0
+2049,Fatima Noor,fatima.noor@example.com,Mumbai,Headphones,2,"1,500",2026-02-17,Completed,4.4,28.0
+2050,Raj Malhotra,raj.malhotra@example.com,Pune,Monitor,1,12000,2026-02-18,unknown,8.5,150.0
+2051,Esha Roy,esha.roy@example.com,Delhi,Keyboard,1,2300,2026-02-19,Completed,4.2,27.0
+2052,Aman Jain,aman.jain@example.com,Chennai,Mouse,2,650,2026-02-20,Pending,4.1,30.0
+2053,Rohit Das,rohit.das@example.com,Mumbai,Laptop,1,61000,2026-02-21,Completed,4.7,36.0
+2054,Isha Mehta,isha.mehta@example.com,Jaipur,Headphones,1,1750,2026-02-22,Completed,4.0,29.0
+2055,  ,not-an-email,Unknownn,Mouse,1,650,2026-02-23,Complete,5.8,17.0
