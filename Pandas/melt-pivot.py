@@ -11,3 +11,7 @@ data = {
 df = pd.DataFrame(data)
 
 print(df)
+
+melt_data = df.melt(id_vars=["Name"], value_vars=["Maths","Science","English"], var_name="Subject", value_name="Score")
+
+print(melt_data)
